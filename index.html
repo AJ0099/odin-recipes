@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Recipes</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 32px;
+        text-align: center;
+        background-color: aliceblue;
+      }
+
+      h1 {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+      }
+
+      .container div {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+      }
+
+      .container div h2 a {
+        text-decoration: none;
+        color: black;
+      }
+
+      img {
+        border-radius: 8px;
+      }
+
+      @media only screen and (max-width: 1349px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+      @media only screen and (max-width: 450px) {
+        img {
+          width: 300px;
+          height: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Odin Recipes</h1>
+    <div class="container">
+      <div>
+        <h2><a href="recipes/cookies.html">Big Soft Ginger Cookies</a></h2>
+        <a href="recipes/cookies.html">
+          <img
+            src="https://www.allrecipes.com/thmb/fWmLhJ0w83byfd1CSQACr5DyHhY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/17165_Big-Soft-Ginger-Cookies_ZAKIAH_4574068_original-1x1-1-20f62d43d3374f3fb180362324ea23c3.jpg"
+            alt="Cookies"
+            width="400"
+            height="400"
+        /></a>
+      </div>
+      <div>
+        <h2><a href="recipes/pancakes.html">Banana Pancakes</a></h2>
+        <a href="recipes/pancakes.html">
+          <img
+            src="https://www.allrecipes.com/thmb/WnffIWSZc3to-ix6jwczxtHghhc=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/20334-banana-pancakes-i-DDMFS-4x3-9f291f03044247d48c9ec26917952402.jpg"
+            alt="Banana Pancakes"
+            width="400"
+            height="300"
+        /></a>
+      </div>
+      <div>
+        <h2><a href="recipes/lasagna.html">Mexican Lasagna</a></h2>
+        <a href="recipes/lasagna.html">
+          <img
+            src="https://www.allrecipes.com/thmb/GXi2zByenJfM24Jq9On7JFw2-uc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4501231-f3fda13192ee41268602be96b80e4301.jpg"
+            alt="Mexican Lasagna"
+            width="400"
+            height="400"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
